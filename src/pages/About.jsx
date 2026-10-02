@@ -10,7 +10,7 @@ const About = () => {
       <div className="page-hero" style={{ backgroundImage: `url(${heroImg})` }}>
         <h1 className="animate-fade-up">Built Around Quality Printing & Reliable Service.</h1>
         <p className="animate-fade-up animate-delay-1">
-          An introduction to Al Karim Enterprises.
+          An introduction to Al Kareem Enterprises.
         </p>
       </div>
 
@@ -22,7 +22,7 @@ const About = () => {
               <h2 className="section-title section-title--left">Who We Are</h2>
               <hr className="rule-line" />
               <p>
-                Al Karim Enterprises is a dedicated printing service provider based in Township, Lahore. We handle a wide variety of commercial and personal printing work, specializing in business stationery, packaging, and marketing materials.
+                Al Kareem Enterprises is a dedicated printing service provider based in Township, Lahore. We handle a wide variety of commercial and personal printing work, specializing in business stationery, packaging, and marketing materials.
               </p>
               <p>
                 Led by Mian Zahid Mahmood, our focus is simple: to supply our clients with printed materials that properly represent their standard of work. Whether you are a local business needing routine office stationery or an organization requiring custom print runs, we serve our clients with professionalism and care.
@@ -38,10 +38,10 @@ const About = () => {
                 <div className="about-biz-card">
                   <div className="about-biz-card-inner">
                     <div className="about-biz-card-logo">
-                      <img src="/logo.jpg" alt="Al Karim Logo" />
+                      <img src="/logo.jpg" alt="Al Kareem Logo" />
                     </div>
                     <div className="about-biz-card-info">
-                      <h3>AL KARIM</h3>
+                      <h3>AL KAREEM</h3>
                       <p className="subtitle">ENTERPRISES</p>
                       <p className="contact-name">Mian Zahid Mahmood</p>
                       <p className="contact-phone">0322-8435577</p>
@@ -129,9 +129,9 @@ const About = () => {
       <section className="cta-section">
         <div className="container">
           <h2 className="cta-title">Looking for a Printing Partner?</h2>
-          <p className="cta-text">Let's discuss how Al Karim Enterprises can support your printing needs.</p>
+          <p className="cta-text">Let's discuss how Al Kareem Enterprises can support your printing needs.</p>
           <div className="cta-actions">
-            <Link to="/contact" className="btn btn-primary btn-lg">Contact Al Karim Enterprises</Link>
+            <Link to="/contact" className="btn btn-primary btn-lg">Contact Al Kareem Enterprises</Link>
           </div>
         </div>
       </section>

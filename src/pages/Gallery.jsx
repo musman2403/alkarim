@@ -2,6 +2,13 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { X } from 'lucide-react';
 import heroImg from '../assets/gallery_intro_1790914666284.jpg';
+import imgBusinessCards from '../assets/business_cards_1790939576207.jpg';
+import imgAnnualReport from '../assets/annual_report_1790939587446.jpg';
+import imgLuxuryBoxes from '../assets/luxury_boxes_1790939601140.jpg';
+import imgLetterhead from '../assets/letterhead_1790939614285.jpg';
+import imgInvitations from '../assets/invitations_1790939630459.jpg';
+import imgFlyers from '../assets/flyers_1790939648479.jpg';
+import imgTakeoutBags from '../assets/takeout_bags_1790939664635.jpg';
 
 const Gallery = () => {
   const [filter, setFilter] = useState('All');
@@ -10,13 +17,13 @@ const Gallery = () => {
   const categories = ['All', 'Business Cards', 'Stationery', 'Marketing Materials', 'Packaging', 'Cards & Invitations', 'Other'];
   
   const portfolio = [
-    { id: 1, title: 'Corporate Business Cards', category: 'Business Cards', type: 'Matte Finish / Spot UV', image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&q=80&w=800', size: 'large' },
-    { id: 2, title: 'Annual Report 2025', category: 'Marketing Materials', type: 'Perfect Binding', image: 'https://images.unsplash.com/photo-1544497486-13a86c679fc4?auto=format&fit=crop&q=80&w=800', size: 'normal' },
-    { id: 3, title: 'Luxury Retail Boxes', category: 'Packaging', type: 'Foil Stamping', image: 'https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&q=80&w=800', size: 'normal' },
-    { id: 4, title: 'Executive Letterheads', category: 'Stationery', type: 'Textured Paper', image: 'https://images.unsplash.com/photo-1621831830026-613d71249b6b?auto=format&fit=crop&q=80&w=800', size: 'normal' },
-    { id: 5, title: 'Gala Dinner Invites', category: 'Cards & Invitations', type: 'Die-cut / Embossing', image: 'https://images.unsplash.com/photo-1517457210515-56f4d2f34846?auto=format&fit=crop&q=80&w=800', size: 'large' },
-    { id: 6, title: 'Trade Show Flyers', category: 'Marketing Materials', type: 'Glossy Finish', image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=800', size: 'normal' },
-    { id: 7, title: 'Restaurant Takeout Bags', category: 'Packaging', type: 'Kraft Paper Print', image: 'https://images.unsplash.com/photo-1577900232427-18219b9166a0?auto=format&fit=crop&q=80&w=800', size: 'normal' },
+    { id: 1, title: 'Corporate Business Cards', category: 'Business Cards', type: 'Matte Finish / Spot UV', image: imgBusinessCards, size: 'large' },
+    { id: 2, title: 'Annual Report 2025', category: 'Marketing Materials', type: 'Perfect Binding', image: imgAnnualReport, size: 'normal' },
+    { id: 3, title: 'Luxury Retail Boxes', category: 'Packaging', type: 'Foil Stamping', image: imgLuxuryBoxes, size: 'normal' },
+    { id: 4, title: 'Executive Letterheads', category: 'Stationery', type: 'Textured Paper', image: imgLetterhead, size: 'normal' },
+    { id: 5, title: 'Gala Dinner Invites', category: 'Cards & Invitations', type: 'Die-cut / Embossing', image: imgInvitations, size: 'large' },
+    { id: 6, title: 'Trade Show Flyers', category: 'Marketing Materials', type: 'Glossy Finish', image: imgFlyers, size: 'normal' },
+    { id: 7, title: 'Restaurant Takeout Bags', category: 'Packaging', type: 'Kraft Paper Print', image: imgTakeoutBags, size: 'normal' },
   ];
   
   const filteredPortfolio = filter === 'All' 
@@ -29,7 +36,7 @@ const Gallery = () => {
       <div className="page-hero" style={{ backgroundImage: `url(${heroImg})` }}>
         <h1 className="animate-fade-up">Our Work, Printed for the Real World.</h1>
         <p className="animate-fade-up animate-delay-1">
-          Explore selected printing work and finished materials from Al Karim Enterprises.
+          Explore selected printing work and finished materials from Al Kareem Enterprises.
         </p>
       </div>
 
@@ -108,7 +115,7 @@ const Gallery = () => {
             </div>
             
             <div style={{ borderRadius: 'var(--radius-lg)', overflow: 'hidden', boxShadow: 'var(--shadow-xl)' }}>
-              <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&q=80&w=1200" alt="Featured Project" style={{ width: '100%', height: 'auto', display: 'block' }} />
+              <img src={imgBusinessCards} alt="Featured Project" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>
           </div>
         </div>

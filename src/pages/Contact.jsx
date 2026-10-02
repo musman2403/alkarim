@@ -82,8 +82,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4>Email</h4>
-                    <a href="mailto:alkarim30@yahoo.com" className="contact-email-link">
-                      alkarim30@yahoo.com
+                    <a href="mailto:alkareem30@yahoo.com" className="contact-email-link">
+                      alkareem30@yahoo.com
                     </a>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ const Contact = () => {
                   <CheckCircle size={44} />
                   <h4>Inquiry Received!</h4>
                   <p>
-                    Thank you, <strong>{formData.name || 'valued client'}</strong>. Your printing request has been submitted to Al Karim Enterprises. Mian Zahid Mahmood and our prepress team will contact you shortly at <strong>{formData.phone || formData.email}</strong> with a detailed estimate.
+                    Thank you, <strong>{formData.name || 'valued client'}</strong>. Your printing request has been submitted to Al Kareem Enterprises. Mian Zahid Mahmood and our prepress team will contact you shortly at <strong>{formData.phone || formData.email}</strong> with a detailed estimate.
                   </p>
                   <div className="form-success-actions">
                     <a 
@@ -207,7 +207,7 @@ const Contact = () => {
       {/* 05 — Location */}
       <section className="map-section">
         <div className="container" style={{ paddingBottom: 0 }}>
-          <h2 className="section-title">Find Al Karim Enterprises</h2>
+          <h2 className="section-title">Find Al Kareem Enterprises</h2>
         </div>
         <div className="map-container">
           <iframe 
@@ -218,7 +218,7 @@ const Contact = () => {
             allowFullScreen="" 
             loading="lazy" 
             referrerPolicy="no-referrer-when-downgrade"
-            title="Al Karim Enterprises Location"
+            title="Al Kareem Enterprises Location"
           ></iframe>
         </div>
       </section>

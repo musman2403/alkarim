@@ -16,10 +16,10 @@ const Footer = () => {
           <div className="footer-col footer-col-brand">
             <Link to="/" className="footer-logo" onClick={scrollToTop}>
               <div className="footer-logo-badge">
-                <img src="/logo.jpg" alt="Al Karim Logo" className="footer-logo-img" />
+                <img src="/logo.jpg" alt="Al Kareem Logo" className="footer-logo-img" />
               </div>
               <div>
-                <div className="footer-logo-title">AL KARIM</div>
+                <div className="footer-logo-title">AL KAREEM</div>
                 <div className="footer-logo-subtitle">ENTERPRISES</div>
               </div>
             </Link>
@@ -144,8 +144,8 @@ const Footer = () => {
               </div>
               <div className="footer-contact-text">
                 <span className="footer-contact-label">Email</span>
-                <a href="mailto:alkarim30@yahoo.com" className="footer-email-link">
-                  alkarim30@yahoo.com
+                <a href="mailto:alkareem30@yahoo.com" className="footer-email-link">
+                  alkareem30@yahoo.com
                 </a>
               </div>
             </div>
@@ -155,7 +155,7 @@ const Footer = () => {
         {/* Footer Bottom Bar */}
         <div className="footer-bottom-bar">
           <p className="footer-copyright">
-            &copy; {new Date().getFullYear()} <strong>Al Karim Enterprises</strong>. All Rights Reserved.
+            &copy; {new Date().getFullYear()} <strong>Al Kareem Enterprises</strong>. All Rights Reserved.
           </p>
           <div className="footer-bottom-meta">
             <span className="footer-contact-person">
