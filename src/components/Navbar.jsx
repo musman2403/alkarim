@@ -25,9 +25,9 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-container">
         <Link to="/" className="logo" onClick={closeMenu}>
-          <img src="/logo.jpg" alt="Al Kareem Logo" className="logo-img" />
+          <img src="/logo.jpg" alt="Al Karim Logo" className="logo-img" />
           <div>
-            <div className="logo-text">AL KAREEM</div>
+            <div className="logo-text">AL KARIM</div>
             <div className="logo-subtext">ENTERPRISES</div>
           </div>
         </Link>

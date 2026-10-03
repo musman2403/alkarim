@@ -36,7 +36,7 @@ const Gallery = () => {
       <div className="page-hero" style={{ backgroundImage: `url(${heroImg})` }}>
         <h1 className="animate-fade-up">Our Work, Printed for the Real World.</h1>
         <p className="animate-fade-up animate-delay-1">
-          Explore selected printing work and finished materials from Al Kareem Enterprises.
+          Explore selected printing work and finished materials from Al Karim Enterprises.
         </p>
       </div>
 

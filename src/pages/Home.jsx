@@ -119,7 +119,7 @@ const Home = () => {
       company: "Apex Consumer Brands, Lahore",
       avatar: "TM",
       stars: 5,
-      quote: "Al Kareem Enterprises has been our exclusive printing partner for over 8 years. Their color consistency across our product catalogues and business stationery is unmatched. Mian Zahid always ensures orders are completed ahead of schedule.",
+      quote: "Al Karim Enterprises has been our exclusive printing partner for over 8 years. Their color consistency across our product catalogues and business stationery is unmatched. Mian Zahid always ensures orders are completed ahead of schedule.",
       project: "Corporate Catalogues & Custom Stationery"
     },
     {
@@ -128,7 +128,7 @@ const Home = () => {
       company: "Studio 9 Design & Media",
       avatar: "SK",
       stars: 5,
-      quote: "Finding a printer in Lahore who genuinely understands intricate die-cuts, foil stamping, and premium art card textures used to be difficult until we partnered with Al Kareem. The final finish on our luxury packaging was immaculate.",
+      quote: "Finding a printer in Lahore who genuinely understands intricate die-cuts, foil stamping, and premium art card textures used to be difficult until we partnered with Al Karim. The final finish on our luxury packaging was immaculate.",
       project: "Rigid Product Boxes & Foiled Invites"
     },
     {
@@ -137,7 +137,7 @@ const Home = () => {
       company: "Horizon Healthcare Group",
       avatar: "AU",
       stars: 5,
-      quote: "We required over 40,000 multi-page medical brochures and prescription booklets on an urgent deadline. Al Kareem handled the entire run seamlessly without a single compromise on paper weight or print sharpness.",
+      quote: "We required over 40,000 multi-page medical brochures and prescription booklets on an urgent deadline. Al Karim handled the entire run seamlessly without a single compromise on paper weight or print sharpness.",
       project: "Medical Booklets & Corporate Literature"
     }
   ];
@@ -154,7 +154,7 @@ const Home = () => {
       {/* 01 — Hero */}
       <section className="hero">
         <div className="hero-bg">
-          <img src={heroImg} alt="Al Kareem Enterprises printing facility" />
+          <img src={heroImg} alt="Al Karim Enterprises printing facility" />
         </div>
         <div className="container hero-container">
           <div className="hero-eyebrow">
@@ -162,14 +162,14 @@ const Home = () => {
             Professional Printing · Lahore, Pakistan
           </div>
           <h1 className="hero-title">Printing That Gives Your Business a Professional Presence.</h1>
-          <p className="hero-text">Quality printing solutions for business, marketing, stationery, and custom print requirements from Al Kareem Enterprises, Lahore.</p>
+          <p className="hero-text">Quality printing solutions for business, marketing, stationery, and custom print requirements from Al Karim Enterprises, Lahore.</p>
           <div className="hero-actions">
             <Link to="/contact" className="btn btn-primary btn-lg">Request a Quote</Link>
             <Link to="/gallery" className="btn btn-secondary btn-lg">View Our Work</Link>
           </div>
           <div className="hero-location">
             <MapPin size={14} />
-            Al Kareem Enterprises
+            Al Karim Enterprises
             <span className="hero-location-dot"></span>
             Township, Lahore
           </div>
@@ -181,7 +181,7 @@ const Home = () => {
       </section>
 
       {/* Movement Bar after Hero */}
-      <div className="movement-bar" aria-label="Al Kareem highlights ticker">
+      <div className="movement-bar" aria-label="Al Karim highlights ticker">
         <div className="movement-track">
           {[...movementItems, ...movementItems].map((item, idx) => (
             <div key={idx} className="movement-item">
@@ -208,7 +208,7 @@ const Home = () => {
               </h2>
               
               <p className="intro-lead-text">
-                Al Kareem Enterprises provides dedicated commercial printing services to ensure your brand always looks its best. From everyday business stationery to bespoke high-volume packaging and marketing collateral, we manage every production run with precision and uncompromising standards.
+                Al Karim Enterprises provides dedicated commercial printing services to ensure your brand always looks its best. From everyday business stationery to bespoke high-volume packaging and marketing collateral, we manage every production run with precision and uncompromising standards.
               </p>
 
               <div className="intro-features-grid">
@@ -259,7 +259,7 @@ const Home = () => {
               <div className="intro-image-frame">
                 <img 
                   src={workshopIntroImg} 
-                  alt="Al Kareem Enterprises Commercial Printing Press Facility in Lahore" 
+                  alt="Al Karim Enterprises Commercial Printing Press Facility in Lahore" 
                   className="intro-image"
                   loading="lazy"
                 />
@@ -385,10 +385,10 @@ const Home = () => {
         </div>
       </section>
 
-      {/* 05 — Why Al Kareem Enterprises */}
+      {/* 05 — Why Al Karim Enterprises */}
       <section className="section" style={{ backgroundColor: 'var(--sheet)' }}>
         <div className="container">
-          <h2 className="section-title">Why Al Kareem Enterprises</h2>
+          <h2 className="section-title">Why Al Karim Enterprises</h2>
           <p className="section-subtitle">Built on a foundation of quality, reliability, and professional service over 25 years.</p>
           <div className="value-props-grid">
             <div className="value-prop">
@@ -433,7 +433,7 @@ const Home = () => {
           </div>
           <h2 className="section-title">Trusted by Leading Businesses in Lahore.</h2>
           <p className="section-subtitle">
-            Here is what corporate procurement leads, creative studios, and brand managers say about working with Al Kareem Enterprises.
+            Here is what corporate procurement leads, creative studios, and brand managers say about working with Al Karim Enterprises.
           </p>
 
           <div className="testimonials-grid">
@@ -527,7 +527,7 @@ const Home = () => {
                 <div>
                   <strong>Email</strong>
                   <p>
-                    <a href="mailto:alkareem30@yahoo.com">alkareem30@yahoo.com</a>
+                    <a href="mailto:alkarim30@yahoo.com">alkarim30@yahoo.com</a>
                   </p>
                 </div>
               </div>

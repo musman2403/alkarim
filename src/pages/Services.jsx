@@ -79,7 +79,7 @@ const Services = () => {
       <div className="page-hero" style={{ backgroundImage: `url(${heroImg})` }}>
         <h1 className="animate-fade-up">Printing Services for Every Business Need.</h1>
         <p className="animate-fade-up animate-delay-1">
-          From everyday business stationery to promotional and custom printing, explore the services available from Al Kareem Enterprises.
+          From everyday business stationery to promotional and custom printing, explore the services available from Al Karim Enterprises.
         </p>
       </div>
 
